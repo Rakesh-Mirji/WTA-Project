@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MENU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu:400,700&display=swap" rel="stylesheet">
+  <!--    Bootstrap css files-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style media="screen">
+
+      body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(0.25turn, white,darkgrey);
+  overflow-x:hidden;
+
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  padding: 20px 10px;
+}
+
+.header a {
+  cursor: pointer;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+table{
+  width : 100%;
+margin-left: 50px;
+border-spacing: 40px 40px;
+}
+
+h3{
+  color : white;
+font-family: 'Roboto', sans-serif;
+}
+
+.checked {
+  color: orange;
+}
+h2{
+  font-family: 'Pacifico', cursive ;
+}
+
+.image{
+  width : 100px;
+  height :100px;
+  border-radius: 50%;
+  padding-top:  10px;
+  padding-bottom: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 2px 10px;
+  margin-left: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #808080;
+  border: none;
+  border-radius: 30px;
+
+}
+
+.button:hover {background-color: black;}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+th{
+  font-size: 20px;
+}
+
+cell{
+  padding-left: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+<a href="testFood.html"><h3>FOODIEE</h3></a>
+</div>
+<br>
+<a name = "Vegetarian"></a>
+<br>
+<br />
+<br>
+<br>
+<h2>Vegetarian</h2>
+<br>
+<table>
+  <tr>
+    <th style="width:20%" >Dish name</th>
+    <th class = cell>Price</th>
+
+    <th>Rating</th>
+<th>location</th>
+  </tr>
+
+  <tr>
+  <td> <figure>
+      <img title="Lentil curr" class = "image" src="images\veg.jpg" alt="curry">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Paneer chole bhature</figcaption>
+    </figure>   </td>
+    <td>80/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td>
+<td>Panjabi rasoi, durgadabail, hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\veg1.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> idli vada</figcaption>
+    </figure></td>
+    <td>30/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td>
+    <td>Idli vada centre,ganesh pete hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\veg2.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Davangere benne dose</figcaption>
+    </figure></td>
+    <td>50/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>opposite to kotambari clg,vidyanagar hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\veg3.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Burnt Noodles</figcaption>
+    </figure></td>
+    <td>140/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Satkar Bhavan, Deshpande nagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\veg4.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> thalipeeth</figcaption>
+    </figure></td>
+    <td>50/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Canara hotel, Hosur, hubli</td>
+  </tr>
+</table>
+<a name = "chaats"></a>
+<br>
+<br>
+<br>
+<br>
+<h2>CHAATS</h2>
+<br>
+<table>
+  <tr>
+    <th style="width:20%" >Dish name</th>
+    <th class = cell>Price</th>
+
+    <th>Rating</th>
+<th>location</th>
+  </tr>
+
+  <tr>
+  <td> <figure>
+      <img title="Lentil curr" class = "image" src="images\chat1.jpg" alt="curry">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Vana Girmit</figcaption>
+    </figure>   </td>
+    <td>30/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td>
+<td>Mydar oni circlr road, durgadabail, new Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\chat2.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Special egg rice</figcaption>
+    </figure></td>
+    <td>35/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Durga eggrice center, Tejaswi nagar bridge, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\chat3.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Buns</figcaption>
+    </figure></td>
+    <td>25/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Reddy canteen. prashant Colony, Vidyanagar Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\chat4.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Kachori and Samosa </figcaption>
+    </figure></td>
+    <td>30/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>L & P Kitchen, Maratha Galli, CBT, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\chat5.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Girmit</figcaption>
+    </figure></td>
+    <td>40/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>infront bvb, vidyanagar hubli</td>
+  </tr>
+</table>
+<a name = "beverages"></a>
+<br>
+<br>
+<br>
+<br>
+<h2>BEVERAGES</h2>
+<br>
+<table>
+  <tr>
+    <th style="width:20%" >Drink name</th>
+    <th class = cell>Price</th>
+
+    <th>Rating</th>
+<th>location</th>
+  </tr>
+
+  <tr>
+  <td> <figure>
+      <img title="Lentil curr" class = "image" src="images\bev2.jpg" alt="curry">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Filter Cofee</figcaption>
+    </figure>   </td>
+    <td>20/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+<td>Kumbakonam degree clg opposite, akshay park road, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\beverage.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Chocolate pani puri</figcaption>
+    </figure></td>
+    <td>100/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Panipuri express, Sanjeevani hospital, prabhat colony, vidyanagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\bev3.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Royal Gadbad</figcaption>
+    </figure></td>
+    <td>80/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Siddharuda juuice center, Shirur park, Vidyanagar Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\bev4.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Kit-Kat Shake </figcaption>
+    </figure></td>
+    <td>80/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Lassi & ice-crean corner,Vidyanagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\bev5.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">5 star Shake</figcaption>
+    </figure></td>
+    <td>85/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Kranataka juice center, opp gateway,gadag road, hubli</td>
+  </tr>
+</table>
+<a name = "desserts"></a>
+<br>
+<br>
+<br>
+<br>
+<h2>DESSERTS</h2>
+<br>
+<table>
+  <tr>
+    <th style="width:20%" >Dessert name</th>
+    <th class = cell>Price</th>
+
+    <th>Rating</th>
+<th>location</th>
+  </tr>
+
+  <tr>
+  <td> <figure>
+      <img title="Lentil curr" class = "image" src="images\des1.jpg" alt="curry">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Sundae</figcaption>
+    </figure>   </td>
+    <td>80/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+<td>Dairish ice-cream cafe, Sampige nagar, akshay Colony, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\des2.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;"> Ice-cream Rolls</figcaption>
+    </figure></td>
+    <td>90/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Ice n Slice, opp SBI bank, shirur park road,vidyanagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\des3.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Chocolate Tremor</figcaption>
+    </figure></td>
+    <td>100/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Polar bear, Shirur park road, opp ravi supermarket, vidyanagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\des4.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Black - Current </figcaption>
+    </figure></td>
+    <td>80/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Chocolicious, near hans hotel backgate, kalyan nagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\des5.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Chocolate Waffles</figcaption>
+    </figure></td>
+    <td>85/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Ice-Cream paradise, marvel signet, shirur park, vidyanagar, hubli</td>
+  </tr>
+</table>
+<a name = "fastfood"></a>
+<br>
+<br>
+<br>
+<br>
+<h2>FAST FOOD</h2>
+<br>
+<table>
+  <tr>
+    <th style="width:20%" >Dish name</th>
+    <th class = cell>Price</th>
+
+    <th>Rating</th>
+<th>location</th>
+  </tr>
+
+  <tr>
+  <td> <figure>
+      <img title="Lentil curr" class = "image" src="images\ff1.jpg" alt="curry">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Gobi Manchurian</figcaption>
+    </figure>   </td>
+    <td>50/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></td>
+<td>Harsha fast-food, shirur park, vidyanagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\ff2.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Bread pakoda</figcaption>
+    </figure></td>
+    <td>45/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Raksha fast food, ganesh peth, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\ff3.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Noodles</figcaption>
+    </figure></td>
+    <td>50/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Krishna fast food, shirur park bridge, vidyanagar, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\ff4.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Baby Corn manchurian </figcaption>
+    </figure></td>
+    <td>60/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span></td>
+    <td>Pooja fast food, vinayak complex, vidya Vidyanagar Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\ff5.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Masala papad</figcaption>
+    </figure></td>
+    <td>65/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Vijay fast food, siddeshwar park, vidyanagar, hubli</td>
+  </tr>
+
+</table>
+  <a name = "nonvegetarian"></a>
+<br>
+<br>
+<br>
+<br>
+<h2>NON VEGETARIAN</h2>
+<br>
+<br>
+<table>
+  <tr>
+    <th style="width:20%" >Dish name</th>
+    <th class = cell>Price</th>
+
+    <th>Rating</th>
+<th>location</th>
+  </tr>
+
+  <tr>
+  <td> <figure>
+      <img title="Lentil curr" class = "image" src="images\nonveg1.jpg" alt="curry">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Fried chicken momos</figcaption>
+    </figure>   </td>
+    <td>130/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></td>
+<td>Tilak fast food, CBT, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\nonveg2.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Chicken biryani</figcaption>
+    </figure></td>
+    <td>135/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Shahi fine dine, koppikar road, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\nonveg3.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Chicken fried rice</figcaption>
+    </figure></td>
+    <td>120/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Taste N See, Ashok Nagar bridge, beside ganapati temple, Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\nonveg4.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Chicken dry and kheema dry</figcaption>
+    </figure></td>
+    <td>130/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span></td>
+    <td>chittas renuka savji, shirur park road, Vidyanagar Hubli</td>
+  </tr>
+  <tr>
+    <td><figure>
+      <img title="Lentil curr" class = "image" src="images\nonveg5.jpg" alt="carsoup">
+      <figcaption style="font-size:  15px; font-weight:  bold;">Prawn masala fry</figcaption>
+    </figure></td>
+    <td>125/-</td>
+    <td><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+    <td>Pai's fishland, deshpande nagar, hubli</td>
+  </tr>
+</table>
+  </body>
+</html>
